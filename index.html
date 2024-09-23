@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock Paper Scissor</title>
+
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <script src="assets/js/script.js"></script>
+        
+    </head>
+
+
+    <body>
+        <div id="mainContainer" >
+            <div class="header">
+                <h1>Nyros Technologies</h1>
+            </div>
+
+            <!-- First  -->
+            <div class="first" id="first">
+                <input type="text"  id="name" placeholder="Enter Player name">
+                <button type="button" id='btn' class="btn" onclick="game()">Start Game</button>
+            </div>
+
+
+            <!-- Second  -->
+            <div class="second" id="second" style="display: none;">
+                <div > <button type="button" class="butn" onclick="restart()"> Restart Game</button> </div>
+
+                <div class="scorehands">
+
+                    <div class="score">
+
+                        <div class="score1">
+                            <h2 id="name2" > player </h2>
+                            <p id="scr1">0 </p>
+                        </div>
+                        
+                        <div class="score2">
+                            <h2>Computer</h2>
+                            <p id="scr2">0 </p>
+                        </div>
+
+                    </div>
+
+                    <div id="result" class='result' style="display: none;">
+                        <div id="scr1">0</div>
+                        <div id="scr2">0</div>
+                    </div>
+                    
+
+                    <div class="hands">
+                        <h1 style="margin-left: 100px;">Select your choice</h1>
+                        <img src="assets/img/rock.jpg"  alt="rock" onclick="select('rock')">
+                        <img src="assets/img/paper.jpg" alt="paper" onclick="select('paper')">
+                        <img src="assets/img/scissors.jpg" alt="scissor" onclick="select('scissor')">
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- <div id="result" >
+            ..  
+        </div> -->
+
+
+
+
+
+
+        <div class="footer">
+            <div>
+              <button  onclick="colour('red')" style="background-color: red; padding: 8px;" ></button>
+              <button onclick="colour('green')" style="background-color: green; padding: 8px;"></button>
+              <button onclick="colour('rgb(65, 199, 188)')" style="background-color: rgb(65, 199, 188); padding: 8px;"></button>
+            </div>
+        </div>
+    </div>
+        
+    </body>
+</html>

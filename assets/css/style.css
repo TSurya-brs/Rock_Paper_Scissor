@@ -1,0 +1,129 @@
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background-color: rgb(65, 199, 188);
+    margin-bottom: 10px;
+}
+
+
+
+
+.first{
+    height:720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+#name{
+    font-size: larger;
+    border: 2px solid;
+    color: black;
+    padding:20px;
+    background-color: white;
+
+}
+
+#btn{
+    font-size: larger;
+    border: 2px solid;
+    padding:20px;
+    background-color: rgb(65, 199, 188);
+
+}
+
+
+
+
+.second{
+    height:720px;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+}
+
+.butn{
+   font-size: larger;
+    background-color: rgb(65, 199, 188);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.scorehands{
+    width:40%;
+    border: solid;
+   
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position:relative;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+}
+.score p{
+    border:solid;
+    padding:10px;
+}
+
+
+
+#result{
+    width:450px;
+    height:400px;
+    font-size: 50px;
+    background-color: rgb(65, 199, 188);
+    text-align: center;
+    border-radius: 10px;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.hai{
+    font-size: large;
+}
+
+
+
+/* Footer  */
+.footer{
+    width:100%;
+    height:70px;
+    display: flex; 
+    align-items: center;
+    margin-top: 10px;
+    background-color:rgb(65, 199, 188) ;
+    
+}
+.footer div{
+    width:200px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
